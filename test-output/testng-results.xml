@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="25" passed="25" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-04T10:39:14 IST" name="Suite" finished-at="2024-03-04T10:41:02 IST" duration-ms="108002">
+    <groups>
+    </groups>
+    <test started-at="2024-03-04T10:39:14 IST" name="Chrome Test" finished-at="2024-03-04T10:41:02 IST" duration-ms="108002">
+      <class name="testCases.TC001_BikesDetails">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testCases.TC001_BikesDetails@60bd273d]" started-at="2024-03-04T10:39:15 IST" name="initializeBrowser" finished-at="2024-03-04T10:39:30 IST" duration-ms="14262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="user_navigates_to_zigwheels_page()[pri:0, instance:testCases.TC001_BikesDetails@60bd273d]" started-at="2024-03-04T10:39:30 IST" name="user_navigates_to_zigwheels_page" finished-at="2024-03-04T10:39:30 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_navigates_to_zigwheels_page -->
+        <test-method signature="user_move_cursor_to_new_bikes()[pri:1, instance:testCases.TC001_BikesDetails@60bd273d]" started-at="2024-03-04T10:39:31 IST" name="user_move_cursor_to_new_bikes" finished-at="2024-03-04T10:39:32 IST" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_move_cursor_to_new_bikes -->
+        <test-method signature="user_click_the_upcoming_bike_option()[pri:2, instance:testCases.TC001_BikesDetails@60bd273d]" started-at="2024-03-04T10:39:32 IST" name="user_click_the_upcoming_bike_option" finished-at="2024-03-04T10:39:34 IST" duration-ms="1797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_click_the_upcoming_bike_option -->
+        <test-method signature="user_should_able_to_view_upcoming_bikes_in_india()[pri:3, instance:testCases.TC001_BikesDetails@60bd273d]" started-at="2024-03-04T10:39:35 IST" name="user_should_able_to_view_upcoming_bikes_in_india" finished-at="2024-03-04T10:39:36 IST" duration-ms="1272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_should_able_to_view_upcoming_bikes_in_india -->
+        <test-method signature="user_scroll_to_upcoming_bikes_by_brand()[pri:4, instance:testCases.TC001_BikesDetails@60bd273d]" started-at="2024-03-04T10:39:36 IST" name="user_scroll_to_upcoming_bikes_by_brand" finished-at="2024-03-04T10:39:36 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_scroll_to_upcoming_bikes_by_brand -->
+        <test-method signature="user_click_to_honda_manufacturer()[pri:5, instance:testCases.TC001_BikesDetails@60bd273d]" started-at="2024-03-04T10:39:37 IST" name="user_click_to_honda_manufacturer" finished-at="2024-03-04T10:39:38 IST" duration-ms="1408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_click_to_honda_manufacturer -->
+        <test-method signature="user_should_able_to_view_honda_upcoming_bikes_in_india()[pri:6, instance:testCases.TC001_BikesDetails@60bd273d]" started-at="2024-03-04T10:39:39 IST" name="user_should_able_to_view_honda_upcoming_bikes_in_india" finished-at="2024-03-04T10:39:39 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_should_able_to_view_honda_upcoming_bikes_in_india -->
+        <test-method signature="user_scroll_to_view_more_bikes()[pri:7, instance:testCases.TC001_BikesDetails@60bd273d]" started-at="2024-03-04T10:39:39 IST" name="user_scroll_to_view_more_bikes" finished-at="2024-03-04T10:39:40 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_scroll_to_view_more_bikes -->
+        <test-method signature="user_display_the_bike_details_where_price_less_than_four_lakh()[pri:8, instance:testCases.TC001_BikesDetails@60bd273d]" started-at="2024-03-04T10:39:40 IST" name="user_display_the_bike_details_where_price_less_than_four_lakh" finished-at="2024-03-04T10:39:52 IST" duration-ms="12011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_display_the_bike_details_where_price_less_than_four_lakh -->
+        <test-method signature="user_scroll_back_to_honda_upcoming_bikes_in_india()[pri:9, instance:testCases.TC001_BikesDetails@60bd273d]" started-at="2024-03-04T10:39:52 IST" name="user_scroll_back_to_honda_upcoming_bikes_in_india" finished-at="2024-03-04T10:39:56 IST" duration-ms="4071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_scroll_back_to_honda_upcoming_bikes_in_india -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC001_BikesDetails@60bd273d]" started-at="2024-03-04T10:39:57 IST" name="closeBrowser" finished-at="2024-03-04T10:40:00 IST" duration-ms="3110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TC001_BikesDetails -->
+      <class name="testCases.TC002_UsedCars">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testCases.TC002_UsedCars@a38c7fe]" started-at="2024-03-04T10:40:00 IST" name="initializeBrowser" finished-at="2024-03-04T10:40:08 IST" duration-ms="7745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="user_navigates_to_zigwheels_page()[pri:0, instance:testCases.TC002_UsedCars@a38c7fe]" started-at="2024-03-04T10:40:08 IST" name="user_navigates_to_zigwheels_page" finished-at="2024-03-04T10:40:08 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_navigates_to_zigwheels_page -->
+        <test-method signature="user_move_cursor_to_used_cars()[pri:1, instance:testCases.TC002_UsedCars@a38c7fe]" started-at="2024-03-04T10:40:09 IST" name="user_move_cursor_to_used_cars" finished-at="2024-03-04T10:40:09 IST" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_move_cursor_to_used_cars -->
+        <test-method signature="user_click_to_chennai()[pri:2, instance:testCases.TC002_UsedCars@a38c7fe]" started-at="2024-03-04T10:40:10 IST" name="user_click_to_chennai" finished-at="2024-03-04T10:40:15 IST" duration-ms="5054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_click_to_chennai -->
+        <test-method signature="user_should_able_to_view_uesd_cars_in_chennai()[pri:3, instance:testCases.TC002_UsedCars@a38c7fe]" started-at="2024-03-04T10:40:15 IST" name="user_should_able_to_view_uesd_cars_in_chennai" finished-at="2024-03-04T10:40:15 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_should_able_to_view_uesd_cars_in_chennai -->
+        <test-method signature="user_scroll_to_popular_models()[pri:4, instance:testCases.TC002_UsedCars@a38c7fe]" started-at="2024-03-04T10:40:16 IST" name="user_scroll_to_popular_models" finished-at="2024-03-04T10:40:16 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_scroll_to_popular_models -->
+        <test-method signature="user_extract_all_the_popular_models()[pri:5, instance:testCases.TC002_UsedCars@a38c7fe]" started-at="2024-03-04T10:40:16 IST" name="user_extract_all_the_popular_models" finished-at="2024-03-04T10:40:16 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_extract_all_the_popular_models -->
+        <test-method signature="user_display_all_popular_models()[pri:6, instance:testCases.TC002_UsedCars@a38c7fe]" started-at="2024-03-04T10:40:17 IST" name="user_display_all_popular_models" finished-at="2024-03-04T10:40:18 IST" duration-ms="1166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_display_all_popular_models -->
+        <test-method signature="user_click_on_the_zigwheels_to_navigate_homepage()[pri:7, instance:testCases.TC002_UsedCars@a38c7fe]" started-at="2024-03-04T10:40:18 IST" name="user_click_on_the_zigwheels_to_navigate_homepage" finished-at="2024-03-04T10:40:20 IST" duration-ms="2091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_click_on_the_zigwheels_to_navigate_homepage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC002_UsedCars@a38c7fe]" started-at="2024-03-04T10:40:21 IST" name="closeBrowser" finished-at="2024-03-04T10:40:23 IST" duration-ms="2087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TC002_UsedCars -->
+      <class name="testCases.TC003_loginValidation">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testCases.TC003_loginValidation@6fdbe764]" started-at="2024-03-04T10:40:23 IST" name="initializeBrowser" finished-at="2024-03-04T10:40:35 IST" duration-ms="11183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="user_navigates_to_zigwheels_page()[pri:0, instance:testCases.TC003_loginValidation@6fdbe764]" started-at="2024-03-04T10:40:35 IST" name="user_navigates_to_zigwheels_page" finished-at="2024-03-04T10:40:35 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_navigates_to_zigwheels_page -->
+        <test-method signature="user_click_on_login_signup_button()[pri:1, instance:testCases.TC003_loginValidation@6fdbe764]" started-at="2024-03-04T10:40:36 IST" name="user_click_on_login_signup_button" finished-at="2024-03-04T10:40:37 IST" duration-ms="832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_click_on_login_signup_button -->
+        <test-method signature="user_should_able_to_view_login_register_to_zig_wheels_page()[pri:2, instance:testCases.TC003_loginValidation@6fdbe764]" started-at="2024-03-04T10:40:37 IST" name="user_should_able_to_view_login_register_to_zig_wheels_page" finished-at="2024-03-04T10:40:37 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_should_able_to_view_login_register_to_zig_wheels_page -->
+        <test-method signature="user_click_on_google_button()[pri:3, instance:testCases.TC003_loginValidation@6fdbe764]" started-at="2024-03-04T10:40:38 IST" name="user_click_on_google_button" finished-at="2024-03-04T10:40:38 IST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_click_on_google_button -->
+        <test-method signature="user_should_switch_to_new_sign_in_window()[pri:4, instance:testCases.TC003_loginValidation@6fdbe764]" started-at="2024-03-04T10:40:39 IST" name="user_should_switch_to_new_sign_in_window" finished-at="2024-03-04T10:40:41 IST" duration-ms="2442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_should_switch_to_new_sign_in_window -->
+        <test-method signature="user_fill_invalid_account_details()[pri:5, instance:testCases.TC003_loginValidation@6fdbe764]" started-at="2024-03-04T10:40:41 IST" name="user_fill_invalid_account_details" finished-at="2024-03-04T10:40:58 IST" duration-ms="17031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_fill_invalid_account_details -->
+        <test-method signature="user_should_able_to_capture_error_masseage()[pri:6, instance:testCases.TC003_loginValidation@6fdbe764]" started-at="2024-03-04T10:40:59 IST" name="user_should_able_to_capture_error_masseage" finished-at="2024-03-04T10:40:59 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_should_able_to_capture_error_masseage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC003_loginValidation@6fdbe764]" started-at="2024-03-04T10:40:59 IST" name="closeBrowser" finished-at="2024-03-04T10:41:02 IST" duration-ms="3666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TC003_loginValidation -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Suite -->
+</testng-results>

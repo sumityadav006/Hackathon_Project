@@ -1,0 +1,19 @@
+
+<suite name="Suite">
+<listeners>
+  <listener class-name="utilities.ExtentReport"></listener>
+</listeners>
+  <test name="Chrome Test">
+     <parameter name="browser" value="chrome"></parameter>
+
+   <classes>
+
+   <class name="testCases.TC001_BikesDetails"/>
+    <class name="testCases.TC002_UsedCars"/>
+    <class name="testCases.TC003_loginValidation"/>
+   </classes>
+  </test>
+
+</suite>
+  
+ 

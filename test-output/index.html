@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\2303954\eclipse-workspace\Hackathon_Project\testNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods,   25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC003_loginValidation" class="method navigator-link" hash-for-method="user_click_on_google_button">user_click_on_google_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC003_loginValidation" class="method navigator-link" hash-for-method="user_click_on_login_signup_button">user_click_on_login_signup_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC002_UsedCars" class="method navigator-link" hash-for-method="user_click_on_the_zigwheels_to_navigate_homepage">user_click_on_the_zigwheels_to_navigate_homepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC001_BikesDetails" class="method navigator-link" hash-for-method="user_click_the_upcoming_bike_option">user_click_the_upcoming_bike_option</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC002_UsedCars" class="method navigator-link" hash-for-method="user_click_to_chennai">user_click_to_chennai</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC001_BikesDetails" class="method navigator-link" hash-for-method="user_click_to_honda_manufacturer">user_click_to_honda_manufacturer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC002_UsedCars" class="method navigator-link" hash-for-method="user_display_all_popular_models">user_display_all_popular_models</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC001_BikesDetails" class="method navigator-link" hash-for-method="user_display_the_bike_details_where_price_less_than_four_lakh">user_display_the_bike_details_where_price_less_than_four_lakh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC002_UsedCars" class="method navigator-link" hash-for-method="user_extract_all_the_popular_models">user_extract_all_the_popular_models</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC003_loginValidation" class="method navigator-link" hash-for-method="user_fill_invalid_account_details">user_fill_invalid_account_details</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC001_BikesDetails" class="method navigator-link" hash-for-method="user_move_cursor_to_new_bikes">user_move_cursor_to_new_bikes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC002_UsedCars" class="method navigator-link" hash-for-method="user_move_cursor_to_used_cars">user_move_cursor_to_used_cars</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC001_BikesDetails" class="method navigator-link" hash-for-method="user_navigates_to_zigwheels_page">user_navigates_to_zigwheels_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC002_UsedCars" class="method navigator-link" hash-for-method="user_navigates_to_zigwheels_page">user_navigates_to_zigwheels_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC003_loginValidation" class="method navigator-link" hash-for-method="user_navigates_to_zigwheels_page">user_navigates_to_zigwheels_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC001_BikesDetails" class="method navigator-link" hash-for-method="user_scroll_back_to_honda_upcoming_bikes_in_india">user_scroll_back_to_honda_upcoming_bikes_in_india</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC002_UsedCars" class="method navigator-link" hash-for-method="user_scroll_to_popular_models">user_scroll_to_popular_models</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC001_BikesDetails" class="method navigator-link" hash-for-method="user_scroll_to_upcoming_bikes_by_brand">user_scroll_to_upcoming_bikes_by_brand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC001_BikesDetails" class="method navigator-link" hash-for-method="user_scroll_to_view_more_bikes">user_scroll_to_view_more_bikes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC003_loginValidation" class="method navigator-link" hash-for-method="user_should_able_to_capture_error_masseage">user_should_able_to_capture_error_masseage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC001_BikesDetails" class="method navigator-link" hash-for-method="user_should_able_to_view_honda_upcoming_bikes_in_india">user_should_able_to_view_honda_upcoming_bikes_in_india</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC003_loginValidation" class="method navigator-link" hash-for-method="user_should_able_to_view_login_register_to_zig_wheels_page">user_should_able_to_view_login_register_to_zig_wheels_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC002_UsedCars" class="method navigator-link" hash-for-method="user_should_able_to_view_uesd_cars_in_chennai">user_should_able_to_view_uesd_cars_in_chennai</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC001_BikesDetails" class="method navigator-link" hash-for-method="user_should_able_to_view_upcoming_bikes_in_india">user_should_able_to_view_upcoming_bikes_in_india</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC003_loginValidation" class="method navigator-link" hash-for-method="user_should_switch_to_new_sign_in_window">user_should_switch_to_new_sign_in_window</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC003_loginValidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_click_on_google_button">
+                  </a> <!-- user_click_on_google_button -->
+                  <span class="method-name">user_click_on_google_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_click_on_login_signup_button">
+                  </a> <!-- user_click_on_login_signup_button -->
+                  <span class="method-name">user_click_on_login_signup_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_fill_invalid_account_details">
+                  </a> <!-- user_fill_invalid_account_details -->
+                  <span class="method-name">user_fill_invalid_account_details</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_navigates_to_zigwheels_page">
+                  </a> <!-- user_navigates_to_zigwheels_page -->
+                  <span class="method-name">user_navigates_to_zigwheels_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_able_to_capture_error_masseage">
+                  </a> <!-- user_should_able_to_capture_error_masseage -->
+                  <span class="method-name">user_should_able_to_capture_error_masseage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_able_to_view_login_register_to_zig_wheels_page">
+                  </a> <!-- user_should_able_to_view_login_register_to_zig_wheels_page -->
+                  <span class="method-name">user_should_able_to_view_login_register_to_zig_wheels_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_switch_to_new_sign_in_window">
+                  </a> <!-- user_should_switch_to_new_sign_in_window -->
+                  <span class="method-name">user_should_switch_to_new_sign_in_window</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC001_BikesDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_click_the_upcoming_bike_option">
+                  </a> <!-- user_click_the_upcoming_bike_option -->
+                  <span class="method-name">user_click_the_upcoming_bike_option</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_click_to_honda_manufacturer">
+                  </a> <!-- user_click_to_honda_manufacturer -->
+                  <span class="method-name">user_click_to_honda_manufacturer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_display_the_bike_details_where_price_less_than_four_lakh">
+                  </a> <!-- user_display_the_bike_details_where_price_less_than_four_lakh -->
+                  <span class="method-name">user_display_the_bike_details_where_price_less_than_four_lakh</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_move_cursor_to_new_bikes">
+                  </a> <!-- user_move_cursor_to_new_bikes -->
+                  <span class="method-name">user_move_cursor_to_new_bikes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_navigates_to_zigwheels_page">
+                  </a> <!-- user_navigates_to_zigwheels_page -->
+                  <span class="method-name">user_navigates_to_zigwheels_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_scroll_back_to_honda_upcoming_bikes_in_india">
+                  </a> <!-- user_scroll_back_to_honda_upcoming_bikes_in_india -->
+                  <span class="method-name">user_scroll_back_to_honda_upcoming_bikes_in_india</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_scroll_to_upcoming_bikes_by_brand">
+                  </a> <!-- user_scroll_to_upcoming_bikes_by_brand -->
+                  <span class="method-name">user_scroll_to_upcoming_bikes_by_brand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_scroll_to_view_more_bikes">
+                  </a> <!-- user_scroll_to_view_more_bikes -->
+                  <span class="method-name">user_scroll_to_view_more_bikes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_able_to_view_honda_upcoming_bikes_in_india">
+                  </a> <!-- user_should_able_to_view_honda_upcoming_bikes_in_india -->
+                  <span class="method-name">user_should_able_to_view_honda_upcoming_bikes_in_india</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_able_to_view_upcoming_bikes_in_india">
+                  </a> <!-- user_should_able_to_view_upcoming_bikes_in_india -->
+                  <span class="method-name">user_should_able_to_view_upcoming_bikes_in_india</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC002_UsedCars</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_click_on_the_zigwheels_to_navigate_homepage">
+                  </a> <!-- user_click_on_the_zigwheels_to_navigate_homepage -->
+                  <span class="method-name">user_click_on_the_zigwheels_to_navigate_homepage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_click_to_chennai">
+                  </a> <!-- user_click_to_chennai -->
+                  <span class="method-name">user_click_to_chennai</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_display_all_popular_models">
+                  </a> <!-- user_display_all_popular_models -->
+                  <span class="method-name">user_display_all_popular_models</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_extract_all_the_popular_models">
+                  </a> <!-- user_extract_all_the_popular_models -->
+                  <span class="method-name">user_extract_all_the_popular_models</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_move_cursor_to_used_cars">
+                  </a> <!-- user_move_cursor_to_used_cars -->
+                  <span class="method-name">user_move_cursor_to_used_cars</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_navigates_to_zigwheels_page">
+                  </a> <!-- user_navigates_to_zigwheels_page -->
+                  <span class="method-name">user_navigates_to_zigwheels_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_scroll_to_popular_models">
+                  </a> <!-- user_scroll_to_popular_models -->
+                  <span class="method-name">user_scroll_to_popular_models</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_able_to_view_uesd_cars_in_chennai">
+                  </a> <!-- user_should_able_to_view_uesd_cars_in_chennai -->
+                  <span class="method-name">user_should_able_to_view_uesd_cars_in_chennai</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2303954\eclipse-workspace\Hackathon_Project\testNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.ExtentReport&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Chrome Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TC001_BikesDetails&quot;/&gt;
+      &lt;class name=&quot;testCases.TC002_UsedCars&quot;/&gt;
+      &lt;class name=&quot;testCases.TC003_loginValidation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'user_fill_invalid_account_details')
+data.setCell(0, 2, 'testCases.TC003_loginValidation')
+data.setCell(0, 3, 17031);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'user_display_the_bike_details_where_price_less_than_four_lakh')
+data.setCell(1, 2, 'testCases.TC001_BikesDetails')
+data.setCell(1, 3, 12011);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'user_click_to_chennai')
+data.setCell(2, 2, 'testCases.TC002_UsedCars')
+data.setCell(2, 3, 5054);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'user_scroll_back_to_honda_upcoming_bikes_in_india')
+data.setCell(3, 2, 'testCases.TC001_BikesDetails')
+data.setCell(3, 3, 4071);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'user_should_switch_to_new_sign_in_window')
+data.setCell(4, 2, 'testCases.TC003_loginValidation')
+data.setCell(4, 3, 2442);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'user_click_on_the_zigwheels_to_navigate_homepage')
+data.setCell(5, 2, 'testCases.TC002_UsedCars')
+data.setCell(5, 3, 2091);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'user_click_the_upcoming_bike_option')
+data.setCell(6, 2, 'testCases.TC001_BikesDetails')
+data.setCell(6, 3, 1797);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'user_click_to_honda_manufacturer')
+data.setCell(7, 2, 'testCases.TC001_BikesDetails')
+data.setCell(7, 3, 1408);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'user_should_able_to_view_upcoming_bikes_in_india')
+data.setCell(8, 2, 'testCases.TC001_BikesDetails')
+data.setCell(8, 3, 1272);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'user_display_all_popular_models')
+data.setCell(9, 2, 'testCases.TC002_UsedCars')
+data.setCell(9, 3, 1166);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'user_click_on_login_signup_button')
+data.setCell(10, 2, 'testCases.TC003_loginValidation')
+data.setCell(10, 3, 832);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'user_move_cursor_to_new_bikes')
+data.setCell(11, 2, 'testCases.TC001_BikesDetails')
+data.setCell(11, 3, 825);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'user_click_on_google_button')
+data.setCell(12, 2, 'testCases.TC003_loginValidation')
+data.setCell(12, 3, 460);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'user_move_cursor_to_used_cars')
+data.setCell(13, 2, 'testCases.TC002_UsedCars')
+data.setCell(13, 3, 450);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'user_extract_all_the_popular_models')
+data.setCell(14, 2, 'testCases.TC002_UsedCars')
+data.setCell(14, 3, 293);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'user_navigates_to_zigwheels_page')
+data.setCell(15, 2, 'testCases.TC001_BikesDetails')
+data.setCell(15, 3, 246);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'user_should_able_to_view_login_register_to_zig_wheels_page')
+data.setCell(16, 2, 'testCases.TC003_loginValidation')
+data.setCell(16, 3, 225);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'user_scroll_to_view_more_bikes')
+data.setCell(17, 2, 'testCases.TC001_BikesDetails')
+data.setCell(17, 3, 187);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'user_navigates_to_zigwheels_page')
+data.setCell(18, 2, 'testCases.TC003_loginValidation')
+data.setCell(18, 3, 173);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'user_scroll_to_upcoming_bikes_by_brand')
+data.setCell(19, 2, 'testCases.TC001_BikesDetails')
+data.setCell(19, 3, 150);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'user_should_able_to_view_honda_upcoming_bikes_in_india')
+data.setCell(20, 2, 'testCases.TC001_BikesDetails')
+data.setCell(20, 3, 116);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'user_scroll_to_popular_models')
+data.setCell(21, 2, 'testCases.TC002_UsedCars')
+data.setCell(21, 3, 87);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'user_navigates_to_zigwheels_page')
+data.setCell(22, 2, 'testCases.TC002_UsedCars')
+data.setCell(22, 3, 78);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'user_should_able_to_view_uesd_cars_in_chennai')
+data.setCell(23, 2, 'testCases.TC002_UsedCars')
+data.setCell(23, 3, 63);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'user_should_able_to_capture_error_masseage')
+data.setCell(24, 2, 'testCases.TC003_loginValidation')
+data.setCell(24, 3, 24);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 52 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC001_BikesDetails</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initializeBrowser(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">user_navigates_to_zigwheels_page</span>
+                <span class="method-start">14296 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_move_cursor_to_new_bikes</span>
+                <span class="method-start">15557 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_click_the_upcoming_bike_option</span>
+                <span class="method-start">17055 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_should_able_to_view_upcoming_bikes_in_india</span>
+                <span class="method-start">19256 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_scroll_to_upcoming_bikes_by_brand</span>
+                <span class="method-start">20830 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_click_to_honda_manufacturer</span>
+                <span class="method-start">21274 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_should_able_to_view_honda_upcoming_bikes_in_india</span>
+                <span class="method-start">23215 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_scroll_to_view_more_bikes</span>
+                <span class="method-start">24075 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_display_the_bike_details_where_price_less_than_four_lakh</span>
+                <span class="method-start">24650 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_scroll_back_to_honda_upcoming_bikes_in_india</span>
+                <span class="method-start">36965 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">41667 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC002_UsedCars</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initializeBrowser(chrome)</span>
+                <span class="method-start">44777 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">user_navigates_to_zigwheels_page</span>
+                <span class="method-start">52523 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_move_cursor_to_used_cars</span>
+                <span class="method-start">53633 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_click_to_chennai</span>
+                <span class="method-start">54600 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_should_able_to_view_uesd_cars_in_chennai</span>
+                <span class="method-start">59926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_scroll_to_popular_models</span>
+                <span class="method-start">60285 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_extract_all_the_popular_models</span>
+                <span class="method-start">60628 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_display_all_popular_models</span>
+                <span class="method-start">61263 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_click_on_the_zigwheels_to_navigate_homepage</span>
+                <span class="method-start">62740 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">65971 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC003_loginValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initializeBrowser(chrome)</span>
+                <span class="method-start">68059 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">user_navigates_to_zigwheels_page</span>
+                <span class="method-start">79242 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_click_on_login_signup_button</span>
+                <span class="method-start">80435 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_should_able_to_view_login_register_to_zig_wheels_page</span>
+                <span class="method-start">81844 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_click_on_google_button</span>
+                <span class="method-start">82422 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_should_switch_to_new_sign_in_window</span>
+                <span class="method-start">83399 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_fill_invalid_account_details</span>
+                <span class="method-start">86066 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_should_able_to_capture_error_masseage</span>
+                <span class="method-start">103214 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">103359 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
